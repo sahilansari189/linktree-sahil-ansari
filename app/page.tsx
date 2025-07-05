@@ -5,7 +5,8 @@ import {
   Github, 
   Linkedin, 
   Twitter, 
-  Globe, 
+  Globe,
+  Instagram, 
   Mail, 
   FileText, 
   MessageCircle, 
@@ -45,6 +46,13 @@ const links: LinkItem[] = [
     icon: <Twitter size={24} />,
     description: 'Web3 insights & updates',
     color: 'from-sky-400 to-sky-600'
+  },
+    {
+    title: 'Instagram',
+    url: 'https://instagram.com/official_sahil189',
+    icon: <Instagram size={24} />,
+    description: 'Just for fun',
+    color: 'from-red-600 to-red-800'
   },
   {
     title: 'Portfolio',
