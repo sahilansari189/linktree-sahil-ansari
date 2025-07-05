@@ -57,7 +57,7 @@ const links: LinkItem[] = [
     title: 'YouTube',
     url: 'https://www.youtube.com/@techy_sahil',
     icon: <Youtube size={24} />,
-    description: 'Blockchain tutorials',
+    description: 'Just for fun',
     color: 'from-red-600 to-red-800'
   },
   {
@@ -113,7 +113,7 @@ export default function Home() {
                 />
               </div>
             </div>
-            <div className="absolute -bottom-2 -right-2 w-8 h-8 bg-green-500 rounded-full border-4 border-slate-900 flex items-center justify-center">
+            <div className="absolute -bottom-0 -right-0 w-8 h-8 bg-green-500 rounded-full border-4 border-slate-900 flex items-center justify-center">
               <div className="w-2 h-2 bg-white rounded-full animate-pulse"></div>
             </div>
           </div>
